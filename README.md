@@ -1,5 +1,10 @@
 # LightSync
 LED lights sync
 
-About
-This project aims to create a central hub for all LED devices in order to replace my dozen or so LED FX softwares. This will be achieved via the corresponding device's SDKs (Software Development Kit).
+## About
+This project aims to create a central software in order to replace the dozen various FX softwares. This is being achieved via the corresponding device's SDKs (Software Development Kit).
+
+## Compatibility 
+ - Alienware
+ - Logitech
+ - More coming soon...
