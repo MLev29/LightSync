@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Hardware\Alienware\" />
     <Folder Include="Data\" />
-    <Folder Include="Headers\" />
   </ItemGroup>
 
 </Project>
