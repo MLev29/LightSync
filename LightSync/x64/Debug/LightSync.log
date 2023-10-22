@@ -1,2 +1,5 @@
 ﻿  LightSync.cpp
-  LightSync.vcxproj -> C:\Users\maLev\OneDrive\Desktop\LightSync\LightSync\LightSync\LightSync\x64\Debug\LightSync.exe
+color.obj : error LNK2019: unresolved external symbol "int * __cdecl std::perColor(int)" (?perColor@std@@YAPEAHH@Z) referenced in function "void __cdecl colorToHex(int,int,int)" (?colorToHex@@YAXHHH@Z)
+inputColor.obj : error LNK2019: unresolved external symbol "struct s_color __cdecl std::initColor(void)" (?initColor@std@@YA?AUs_color@@XZ) referenced in function "void __cdecl inputColor(void)" (?inputColor@@YAXXZ)
+inputColor.obj : error LNK2019: unresolved external symbol "void __cdecl std::colorToHex(int,int,int)" (?colorToHex@std@@YAXHHH@Z) referenced in function "void __cdecl inputColor(void)" (?inputColor@@YAXXZ)
+C:\Users\maLev\OneDrive\Desktop\LightSync\LightSync\LightSync\LightSync\x64\Debug\LightSync.exe : fatal error LNK1120: 3 unresolved externals

@@ -2,34 +2,34 @@
 
 #include "Headers/config.h"
 
-void currentMode(void)
-{
-	t_rgbMode rgbMode;
-	switch (rgbMode)
-	{
-		case STATICCOLOR:
-			staticColor();
-			break;
-		case RAINBOWWAVE:
-			rainbowWave();
-			break;
-		case BREATHING:
-			breathing();
-			break;
-		case PULSE:
-			pulse();
-			break;
-		case MORPH:
-			morph();
-			break;
-		case SPECTRUM:
-			spectrum();
-			break;
-		default:
-			staticColor();
-			break;
-	}
-}
+//void currentMode(void)
+//{
+//	t_rgbMode rgbMode;
+//	switch (rgbMode)
+//	{
+//		case STATICCOLOR:
+//			staticColor();
+//			break;
+//		case RAINBOWWAVE:
+//			rainbowWave();
+//			break;
+//		case BREATHING:
+//			breathing();
+//			break;
+//		case PULSE:
+//			pulse();
+//			break;
+//		case MORPH:
+//			morph();
+//			break;
+//		case SPECTRUM:
+//			spectrum();
+//			break;
+//		default:
+//			staticColor();
+//			break;
+//	}
+//}
 
 void staticColor(void)
 {

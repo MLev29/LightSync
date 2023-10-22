@@ -130,13 +130,17 @@
     <ClCompile Include="Alienware.cpp" />
     <ClCompile Include="getHardware.cpp" />
     <ClCompile Include="LightSync.cpp" />
+    <ClCompile Include="logic\color.cpp" />
     <ClCompile Include="mode.cpp" />
+    <ClCompile Include="mode\inputColor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Alienware\alienware.h" />
     <ClInclude Include="Headers\Alienware\LFX2.h" />
     <ClInclude Include="Headers\Alienware\LFXDecl.h" />
     <ClInclude Include="Headers\config.h" />
+    <ClInclude Include="Headers\io\staticColor.h" />
+    <ClInclude Include="Headers\logic\color.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

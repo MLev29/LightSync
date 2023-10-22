@@ -16,6 +16,18 @@
     <Filter Include="Header Files\Alienware">
       <UniqueIdentifier>{bca000de-5562-44c9-be37-d6e133483e69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\logic">
+      <UniqueIdentifier>{d701ef23-0784-48de-8857-65145d382fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logic">
+      <UniqueIdentifier>{f342350c-c198-452c-acfd-601315cbde9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{28f51921-85db-415c-9c08-c497d8e43284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{d9ffc432-7292-4deb-848a-2984ecb74531}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LightSync.cpp">
@@ -30,6 +42,12 @@
     <ClCompile Include="getHardware.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="logic\color.cpp">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="mode\inputColor.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Alienware\LFX2.h">
@@ -43,6 +61,12 @@
     </ClInclude>
     <ClInclude Include="Headers\config.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\logic\color.h">
+      <Filter>Header Files\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\io\staticColor.h">
+      <Filter>Header Files\io</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

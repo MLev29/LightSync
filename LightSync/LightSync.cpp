@@ -1,24 +1,24 @@
 #include <iostream>
+#include <malloc.h>
+
+#include "Headers/logic/color.h"
+#include "Headers/io/staticColor.h"
 
 #include "Headers/Alienware/alienware.h"
-#include "Headers/Config.h"
+//#include "Headers/Config.h"
 
 
 int main()
 {
-    int color;
-    std::cout << "Enter color: ";
-    std::cin >> color;
-    std::cout << "\nColor: " + color << std::endl;
     
+    inputColor();
     // Alienware
-    alienwareStaticColor();
+    //alienwareStaticColor();
 
     // Logitech
-
     // TODO: Coming soon...
 
-    std::cout << "Function import success\n";
+    std::cout << "\033[1;32mProgram execution success\033[0m\n";
 }
 
 
