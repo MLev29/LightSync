@@ -16,6 +16,8 @@ project ("LightSync")
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
+include_directories(${INCLUDE_DIR})
+
 file(
 	GLOB_RECURSE PROJECT_FILES
 	${INCLUDE_DIR}/*.h
